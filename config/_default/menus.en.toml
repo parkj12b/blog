@@ -1,0 +1,23 @@
+[[main]]
+none = "none"
+
+[[main]]
+pre = "email"
+url = "mailto:jacob.park.9436@gmail.com"
+identifier = "qCzhLwJJD3"
+weight = 9_999
+
+[[main]]
+pre = "github"
+url = "https://github.com/parkj12b"
+identifier = "zUi6s4OCyJ"
+weight = 9_999
+
+[[main]]
+pre = "linkedin"
+url = "https://www.linkedin.com/in/minseo-park-106901214/"
+identifier = "6DPOgCUoAv"
+weight = 9_999
+
+[[footer]]
+none = "none"
