@@ -19,5 +19,17 @@ url = "https://www.linkedin.com/in/minseo-park-106901214/"
 identifier = "6DPOgCUoAv"
 weight = 9_999
 
+[[main]]
+name = "Posts"
+pageRef = "posts"
+identifier = "hrH5i7xOiq"
+weight = 9_999
+
+[[main]]
+name = "Resume"
+pageRef = "Resume"
+identifier = "LAbkEm3bcW"
+weight = 9_999
+
 [[footer]]
 none = "none"

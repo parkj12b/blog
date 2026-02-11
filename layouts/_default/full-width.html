@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+      {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+        <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          {{ partial "author.html" . }}
+        </div>
+      {{ end }}
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+    <footer class="pt-8 max-w-full">
+      {{ partial "sharing-links.html" . }}
+    </footer>
+  </article>
+{{ end }}

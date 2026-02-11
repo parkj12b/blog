@@ -1,0 +1,151 @@
+<!-- Giscus Comments with Dynamic Theme and Language -->
+{{ $lang := .Site.Language.Lang }}
+{{ $translationKey := .File.TranslationBaseName }}
+<script>
+  (function() {
+    // Get current theme (dark/light)
+    function getGiscusTheme() {
+      const isDark = document.documentElement.classList.contains('dark');
+      return isDark ? 'dark_tritanopia' : 'light_tritanopia';
+    }
+
+    // Get language from Hugo template
+    const currentLang = '{{ $lang }}';
+
+    // Use file directory path for unified comments across languages
+    // Example: "posts/subscription_alert" for both index.ko.md and index.en.md
+    const discussionId = '{{ .File.Dir | replaceRE "^content/" "" | replaceRE "/$" "" }}';
+
+    // Wait for DOM to be ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initGiscus);
+    } else {
+      initGiscus();
+    }
+
+    function initGiscus() {
+      // Create and insert Giscus script with dynamic settings
+      const script = document.createElement('script');
+      script.src = 'https://giscus.app/client.js';
+      script.setAttribute('data-repo', '0AndWild/0AndWild.github.io');
+      script.setAttribute('data-repo-id', 'R_kgDORNdJ2g');
+      script.setAttribute('data-category', 'General');
+      script.setAttribute('data-category-id', 'DIC_kwDORNdJ2s4C2Lg-');
+      script.setAttribute('data-mapping', 'specific');
+      script.setAttribute('data-term', discussionId);
+      script.setAttribute('data-strict', '0');
+      script.setAttribute('data-reactions-enabled', '1');
+      script.setAttribute('data-emit-metadata', '0');
+      script.setAttribute('data-input-position', 'bottom');
+      script.setAttribute('data-theme', getGiscusTheme());
+      script.setAttribute('data-lang', currentLang);
+      script.setAttribute('data-loading', 'lazy');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.async = true;
+
+      // Find giscus container or create one
+      const container = document.querySelector('.giscus-container') || document.currentScript?.parentElement;
+      if (container) {
+        container.appendChild(script);
+      }
+    }
+
+    // Monitor theme changes and update Giscus
+    function updateGiscusTheme() {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+
+      const theme = getGiscusTheme();
+
+      try {
+        iframe.contentWindow.postMessage(
+          {
+            giscus: {
+              setConfig: {
+                theme: theme
+              }
+            }
+          },
+          'https://giscus.app'
+        );
+      } catch (error) {
+        console.log('Giscus theme update delayed, will retry...');
+      }
+    }
+
+    // Watch for theme changes using MutationObserver
+    const observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        if (mutation.attributeName === 'class') {
+          updateGiscusTheme();
+          break;
+        }
+      }
+    });
+
+    // Start observing immediately
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+
+    // Update theme when Giscus iframe loads
+    window.addEventListener('message', (event) => {
+      if (event.origin !== 'https://giscus.app') return;
+      if (event.data.giscus && event.data.giscus.discussion) {
+        updateGiscusTheme();
+      }
+    });
+  })();
+</script>
+
+<style>
+  /* Ensure Giscus iframe has proper height and displays all content */
+  .giscus-container {
+    min-height: 300px;
+  }
+
+  .giscus-container iframe.giscus-frame {
+    width: 100%;
+    border: none;
+    min-height: 300px;
+  }
+
+  /* Make sure comment actions are visible */
+  .giscus {
+    overflow: visible !important;
+  }
+</style>
+
+<div class="giscus-container"></div>
+
+
+<!-- <section class="article-discussion">
+	<script>
+		function getGiscusTheme() {
+      		const theme = document.documentElement.getAttribute('class') === 'dark'
+				? 'dark_tritanopia'
+				: 'light_tritanopia';
+			console.log(theme);
+			return theme;
+		}
+	</script>
+
+	<script src="https://giscus.app/client.js"
+			data-repo="parkj12b/blog"
+			data-repo-id="R_kgDORNdJ2g"
+			data-category="Announcements"
+			data-category-id="DIC_kwDORNdJ2s4C2Lg-"
+			data-mapping="pathname"
+			data-strict="0"
+			data-reactions-enabled="1"
+			data-emit-metadata="1"
+			data-input-position="top"
+			data-theme="getGiscusTheme()"
+			data-lang="ko"
+			data-loading="lazy"
+			crossorigin="anonymous"
+			async>
+
+	</script>
+</section> -->

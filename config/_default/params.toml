@@ -68,6 +68,8 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+externalLinkForceNewTab = true
+showComments = true
 
 [list]
 showHero = false
