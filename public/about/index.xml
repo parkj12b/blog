@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Minseo Park Blog</title>
+    <link>http://localhost:1313/blog/about/</link>
+    <description>Recent content in About on Minseo Park Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jacob.park.9436@gmail.com (Minseo Park)</managingEditor>
+    <webMaster>jacob.park.9436@gmail.com (Minseo Park)</webMaster>
+    <copyright>© 2026 Minseo Park</copyright>
+    <atom:link href="http://localhost:1313/blog/about/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

@@ -21,6 +21,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/blog/about/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/blog/resume/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>

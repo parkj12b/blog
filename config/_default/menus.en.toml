@@ -31,5 +31,11 @@ pageRef = "Resume"
 identifier = "LAbkEm3bcW"
 weight = 9_999
 
+[[main]]
+name = "About"
+pageRef = "about"
+identifier = "Uk3HQy1Bjo"
+weight = 9_999
+
 [[footer]]
 none = "none"
