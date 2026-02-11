@@ -70,6 +70,7 @@ showWordCount = true
 showZenMode = true
 externalLinkForceNewTab = true
 showComments = true
+editURL = "https://github.com/parkj12b/blog/tree/master/content/"
 
 [list]
 showHero = false
