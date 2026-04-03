@@ -1,0 +1,26 @@
+disabled = false
+languageCode = "ko"
+languageName = "한국어"
+weight = 2
+title = "박민서 블로그"
+
+[params]
+displayName = "KR"
+isoCode = "ko"
+rtl = false
+dateFormat = "2006년 1월 2일"
+
+[[params.author.links]]
+email = "mailto:jacob.park.9436@gmail.com"
+
+[[params.author.links]]
+github = "https://github.com/parkj12b"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/minseo-park-106901214/"
+
+["params.author"]
+name = "박민서"
+email = "jacob.park.9436@gmail.com"
+headline = "학생 | 리눅스 커널 | 제너럴리스트"
+image = "gh-profile-img.jpeg"

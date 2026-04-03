@@ -1,0 +1,61 @@
+{{ $recentArticles := 5 }}
+{{ $showMoreLinkDest := "posts" }}
+{{ if .Site.Params.homepage.showRecent | default false }}
+  {{ if index .Site.Params.homepage "showRecentItems" }}
+    {{ $recentArticles = .Site.Params.homepage.showRecentItems }}
+  {{ end }}
+  <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "shortcode.recent_articles" | emojify }}</h2>
+
+  {{/* Fetch articles: filter by 'posts' section. If current language has none, fallback to default site's regular pages */}}
+  {{ $articles := (where .Site.RegularPages "Section" "posts") }}
+  {{ if eq (len $articles) 0 }}
+    {{ $articles = (where .Sites.Default.RegularPages "Section" "posts") }}
+  {{ end }}
+  {{ $pagedArticles := (first $recentArticles $articles) }}
+
+  {{ if and .Site.Params.homepage.cardView (not .Site.Params.homepage.cardViewScreenWidth) | default false }}
+    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+      {{ range $pagedArticles }}
+        {{ partial "article-link/card.html" . }}
+      {{ end }}
+    </section>
+  {{ else if and .Site.Params.homepage.cardView .Site.Params.homepage.cardViewScreenWidth | default false }}
+    <section class="w-full grid gap-4 sm:grid-cols-2">
+      {{ range $pagedArticles }}
+        {{ partial "article-link/card-fullwidth.html" . }}
+      {{ end }}
+    </section>
+  {{ else }}
+    <section class="space-y-10 w-full">
+      {{ range $pagedArticles }}
+        {{ partial "article-link/simple.html" . }}
+      {{ end }}
+    </section>
+  {{ end }}
+
+  {{ if .Site.Params.homepage.showMoreLink | default false }}
+    {{ if .Site.Params.homepage.showMoreLinkDest }}
+      {{ $showMoreLinkDest = .Site.Params.homepage.showMoreLinkDest }}
+    {{ end }}
+    {{ $link := "" }}
+    {{/* Try current language first */}}
+    {{ with .Site.GetPage $showMoreLinkDest }}
+      {{ $link = .RelPermalink }}
+    {{ else }}
+      {{/* Try default site's language */}}
+      {{ with .Sites.Default.GetPage $showMoreLinkDest }}
+        {{ $link = .RelPermalink }}
+      {{ else }}
+        {{ $link = $showMoreLinkDest | relLangURL }}
+      {{ end }}
+    {{ end }}
+    <div class="mt-10 flex justify-center">
+      <a href="{{ $link }}">
+        <button
+          class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+          {{ i18n "recent.show_more" | markdownify }}
+        </button>
+      </a>
+    </div>
+  {{ end }}
+{{ end }}

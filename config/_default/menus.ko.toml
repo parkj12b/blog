@@ -1,0 +1,41 @@
+[[main]]
+none = "none"
+
+[[main]]
+pre = "email"
+url = "mailto:jacob.park.9436@gmail.com"
+identifier = "qCzhLwJJD3"
+weight = 9_999
+
+[[main]]
+pre = "github"
+url = "https://github.com/parkj12b"
+identifier = "zUi6s4OCyJ"
+weight = 9_999
+
+[[main]]
+pre = "linkedin"
+url = "https://www.linkedin.com/in/minseo-park-106901214/"
+identifier = "6DPOgCUoAv"
+weight = 9_999
+
+[[main]]
+name = "포스트"
+pageRef = "posts"
+identifier = "hrH5i7xOiq"
+weight = 9_999
+
+[[main]]
+name = "이력서"
+pageRef = "Resume"
+identifier = "LAbkEm3bcW"
+weight = 9_999
+
+[[main]]
+name = "소개"
+pageRef = "about"
+identifier = "Uk3HQy1Bjo"
+weight = 9_999
+
+[[footer]]
+none = "none"
