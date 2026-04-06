@@ -25,6 +25,7 @@ showPagination: false
   * **2026년 3월 - 2026년 8월**
   * Linux Foundation 멘토이자 Linux 커널 메인테이너인 Shuah Khan과 함께하는 Linux 커널 멘토십 프로그램.
   * 커널 기여에 대한 지도와 질의응답을 위해 매주 오피스 아워 진행.
+  * linux-mm 메모리 메니저 공부와 syzbot 을 통한 bug fixing 에 몰두중.
 
 ## 개인 프로젝트 (Personal Projects)
 * **B** - B 언어 컴파일러를 i386 (x86) 어셈블리로 재구현. Flex 및 Bison LALR(1)을 사용하여 싱글 패스 컴파일러(Single Pass Compiler) 구현.
@@ -35,6 +36,7 @@ showPagination: false
 * **Ft_fracol** - 다양한 프랙탈 구조를 연구하고 Minilibx 라이브러리를 사용하여 시각화. OpenMP를 활용하여 직렬 루프를 병렬화하고 효율적인 멀티스레드 실행 활성화.
 * **Little-penguine-1** - Eudyptula Challenge 기반의 간단한 리눅스 디바이스 드라이버 작성.
 * **Drivers_and_interrupts** - 리눅스 커널용 LKM(Loadable Kernel Module) 형태의 커널 수준 키로거 작성.
+* **Webserver** - C++를 사용하여 소켓 프로그래밍 기반의 웹 서버 구현. Nginx와 유사한 설정 파일을 처리하기 위해 재귀 하강 파싱(Recursive Descent Parsing) 기법을 적용한 파서 제작.
 
 ## 개인 공부 (Independent Study)
 * **운영 체제 공학 (Operating System Engineering)** - MIT OCW (6.1810)를 통해 Xv6 커널 개발 랩을 수행하여 OS 아키처 시뮬레이션 및 디버깅. 시스템 콜, 페이지 테이블, 트랩, Copy-on-write, 네트워크 드라이버, Readers-writer lock, 파일 시스템, mmap 등 다양한 OS 개념 탐구 및 구현.
