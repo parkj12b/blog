@@ -9,7 +9,12 @@ showPagination: false
 안녕하세요. 리눅스 커널을 공부하고 있는 개발지망생 박민서 입니다. 궁금한 점이 있으시다면 위에 연락처로 문의주세요. 감사합니다! 
 
 ## 보유 기술 (Skills)
-* C, C++, Python, Linux, Git, Bash, GDB, x86, QEMU, Make, GCC, CAN, strace, Syzkaller
+* **Languages:** C, C++, Python, x86 Assembly (NASM), Bash
+* **Kernel & OS:** Linux Kernel Development, Memory Management (mm), LKM, Xv6, Syzkaller, strace, GDB
+* **Virtualization & DevOps:** Docker, Docker Compose, QEMU, VirtualBox
+* **System Programming:** Socket Programming, Multi-threading (pthreads, OpenMP), Custom Malloc, IPC
+* **Architecture:** x86, Computer Architecture (Pipelining, Cache), SIMD (AVX), AVR C
+* **Tools:** Git, Make, GCC, Flex, Bison, Valgrind, CAN
 
 ## 주요 이력 (Timeline)
 * **2019년 9월 - 2020년 12월**: 워털루 대학교 (University of Waterloo) - 메카트로닉스 공학 | 캐나다 온타리오주 워털루 (중퇴)
