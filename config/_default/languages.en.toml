@@ -5,22 +5,18 @@ weight = 1
 title = "Minseo Park Blog"
 
 [params]
-displayName = "EN"
-isoCode = "en"
-rtl = false
-dateFormat = "2 January 2006"
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
 
-[[params.author.links]]
-email = "mailto:jacob.park.9436@gmail.com"
-
-[[params.author.links]]
-github = "https://github.com/parkj12b"
-
-[[params.author.links]]
-linkedin = "https://www.linkedin.com/in/minseo-park-106901214/"
-
-["params.author"]
-name = "Minseo Park"
-email = "jacob.park.9436@gmail.com"
-headline = "Student | Learning Linux | Generalist"
-image = "gh-profile-img.jpeg"
+[params.author]
+  name = "Minseo Park"
+  email = "jacob.park.9436@gmail.com"
+  headline = "Student | Learning Linux | Generalist"
+  image = "gh-profile-img.jpeg"
+  links = [
+    { email = "mailto:jacob.park.9436@gmail.com" },
+    { github = "https://github.com/parkj12b" },
+    { linkedin = "https://www.linkedin.com/in/minseo-park-106901214/" }
+  ]

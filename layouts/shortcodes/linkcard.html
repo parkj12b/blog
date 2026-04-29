@@ -1,0 +1,22 @@
+<div class="linkcard-wrapper mt-6 nozoom">
+  <a href="{{ .Get "url" }}" target="_blank" rel="noopener noreferrer" class="not-prose block">
+    <div class="flex flex-col border border-neutral-200 dark:border-neutral-700 rounded-md overflow-hidden hover:border-primary-500 transition-colors duration-300 shadow-sm hover:shadow-md">
+      <div class="p-5">
+        <div class="flex items-center mb-3">
+          <div class="font-bold text-xl text-neutral-800 dark:text-neutral decoration-primary-500 hover:underline hover:underline-offset-2">
+            {{ .Get "title" }}
+          </div>
+          <span class="ms-2 text-neutral-400 dark:text-neutral-500">
+            {{ partial "icon.html" "link" }}
+          </span>
+        </div>
+        <p class="m-0 text-md text-neutral-600 dark:text-neutral-400 line-clamp-3">
+          {{ .Get "description" }}
+        </p>
+        <div class="mt-3 text-sm text-neutral-400 dark:text-neutral-500 truncate">
+          {{ .Get "url" }}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
