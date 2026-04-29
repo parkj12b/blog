@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Authors on 박민서 블로그</title>
-    <link>http://localhost:1313/blog/ko/authors/</link>
-    <description>Recent content in Authors on 박민서 블로그</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <managingEditor>jacob.park.9436@gmail.com (박민서)</managingEditor>
-    <webMaster>jacob.park.9436@gmail.com (박민서)</webMaster>
-    <copyright>© 2026 박민서</copyright>
-    <atom:link href="http://localhost:1313/blog/ko/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on 박민서 블로그</title><link>https://parkj12b.github.io/blog/ko/authors/</link><description>Recent content in Authors on 박민서 블로그</description><generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>jacob.park.9436@gmail.com (박민서)</managingEditor><webMaster>jacob.park.9436@gmail.com (박민서)</webMaster><copyright>© 2026 박민서</copyright><atom:link href="https://parkj12b.github.io/blog/ko/authors/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
