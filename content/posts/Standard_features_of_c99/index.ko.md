@@ -775,3 +775,7 @@ void ultra_fast_math(int data[const restrict static 10]);
     - 기본적으로 부동 소수점 지원
 - Universal character names
     - 사용자 변수에 ascii 이외의 다른 문자를 포함할 수 있도록 허용
+
+---
+
+{{< github repo="parkj12b/c_standards-99-11-" >}}

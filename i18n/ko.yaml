@@ -26,7 +26,6 @@ article:
   this_article: "이 글"
   related_articles: "관련 글"
   reply_by_email: "이메일로 답장"
-  translate: "한국어로 번역"
 
 a11y:
   title: "접근성 설정"

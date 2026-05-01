@@ -27,7 +27,6 @@
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}
       {{ end }}
-      {{ partial "translate.html" . }}
     </header>
 
     {{/* Body */}}

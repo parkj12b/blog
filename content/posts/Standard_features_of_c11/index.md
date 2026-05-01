@@ -548,3 +548,7 @@ int fd = open("lock.txt", O_CREAT | O_EXCL | O_WRONLY, S_IRUSR | S_IWUSR);
 - quick_exit
 - timespec_get
 - macros for complex values
+
+---
+
+{{< github repo="parkj12b/c_standards-99-11-" >}}

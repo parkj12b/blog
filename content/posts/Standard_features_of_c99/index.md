@@ -781,3 +781,7 @@ void ultra_fast_math(int data[const restrict static 10]);
     - Basically support for floating point
 - Universal character names
     - allow user variables to contain other characters than ascii
+
+---
+
+{{< github repo="parkj12b/c_standards-99-11-" >}}

@@ -548,3 +548,7 @@ int fd = open("lock.txt", O_CREAT | O_EXCL | O_WRONLY, S_IRUSR | S_IWUSR);
 - quick_exit
 - timespec_get
 - 복소수 값을 위한 매크로
+
+---
+
+{{< github repo="parkj12b/c_standards-99-11-" >}}

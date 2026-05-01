@@ -3,99 +3,99 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://parkj12b.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-04-22T15:52:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/"
+      href="http://localhost:1313/blog/ko/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/"
+      href="http://localhost:1313/blog/"
     />
   </url>
   <url>
-    <loc>https://parkj12b.github.io/blog/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2026-04-22T15:52:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/posts/"
+      href="http://localhost:1313/blog/ko/posts/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/posts/"
+      href="http://localhost:1313/blog/posts/"
     />
   </url>
   <url>
-    <loc>https://parkj12b.github.io/blog/posts/standard_features_of_c11/</loc>
+    <loc>http://localhost:1313/blog/posts/standard_features_of_c11/</loc>
     <lastmod>2026-04-22T15:52:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/posts/standard_features_of_c11/"
+      href="http://localhost:1313/blog/ko/posts/standard_features_of_c11/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/posts/standard_features_of_c11/"
+      href="http://localhost:1313/blog/posts/standard_features_of_c11/"
     />
   </url>
   <url>
-    <loc>https://parkj12b.github.io/blog/posts/standard_features_of_c99/</loc>
+    <loc>http://localhost:1313/blog/posts/standard_features_of_c99/</loc>
     <lastmod>2026-04-21T23:05:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/posts/standard_features_of_c99/"
+      href="http://localhost:1313/blog/ko/posts/standard_features_of_c99/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/posts/standard_features_of_c99/"
+      href="http://localhost:1313/blog/posts/standard_features_of_c99/"
     />
   </url>
   <url>
-    <loc>https://parkj12b.github.io/blog/about/</loc>
+    <loc>http://localhost:1313/blog/about/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/about/"
+      href="http://localhost:1313/blog/ko/about/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/about/"
+      href="http://localhost:1313/blog/about/"
     />
   </url>
   <url>
-    <loc>https://parkj12b.github.io/blog/resume/</loc>
+    <loc>http://localhost:1313/blog/resume/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ko"
-      href="https://parkj12b.github.io/blog/ko/resume/"
+      href="http://localhost:1313/blog/ko/resume/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://parkj12b.github.io/blog/resume/"
+      href="http://localhost:1313/blog/resume/"
     />
   </url>
 </urlset>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C11 on Minseo Park Blog</title>
-    <link>https://parkj12b.github.io/blog/tags/c11/</link>
+    <link>http://localhost:1313/blog/tags/c11/</link>
     <description>Recent content in C11 on Minseo Park Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>jacob.park.9436@gmail.com (Minseo Park)</managingEditor>
     <webMaster>jacob.park.9436@gmail.com (Minseo Park)</webMaster>
     <copyright>© 2026 Minseo Park</copyright>
-    <lastBuildDate>Wed, 22 Apr 2026 15:52:00 +0000</lastBuildDate><atom:link href="https://parkj12b.github.io/blog/tags/c11/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 15:52:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/c11/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Standard features of C11</title>
-      <link>https://parkj12b.github.io/blog/posts/standard_features_of_c11/</link>
+      <link>http://localhost:1313/blog/posts/standard_features_of_c11/</link>
       <pubDate>Wed, 22 Apr 2026 15:52:00 +0000</pubDate>
       <author>jacob.park.9436@gmail.com (Minseo Park)</author>
-      <guid>https://parkj12b.github.io/blog/posts/standard_features_of_c11/</guid>
+      <guid>http://localhost:1313/blog/posts/standard_features_of_c11/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://parkj12b.github.io/blog/posts/standard_features_of_c11/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/standard_features_of_c11/featured.svg" />
     </item>
     
   </channel>
