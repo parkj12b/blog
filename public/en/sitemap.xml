@@ -98,4 +98,19 @@
       href="http://localhost:1313/blog/resume/"
     />
   </url>
+  <url>
+    <loc>http://localhost:1313/blog/posts/c&#43;&#43;-%ED%91%9C%EC%A4%80-1-c&#43;&#43;11/c&#43;&#43;-%ED%91%9C%EC%A4%80-1-c&#43;&#43;11-3589befa6a5280cdb64ff97ccf839d0e/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/posts/c&#43;&#43;-%ED%91%9C%EC%A4%80-2-c&#43;&#43;11/c&#43;&#43;-%ED%91%9C%EC%A4%80-3-c&#43;&#43;11-35c9befa6a52805ca5a8e0b0a775368a/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/posts/c&#43;&#43;-%ED%91%9C%EC%A4%80-3-c&#43;&#43;11/c&#43;&#43;-%ED%91%9C%EC%A4%80-2-c&#43;&#43;11-35a9befa6a5280838346de8d33a191f1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

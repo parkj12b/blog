@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43;11 on Minseo Park Blog</title>
+    <link>http://localhost:1313/blog/tags/c&#43;&#43;11/</link>
+    <description>Recent content in C&#43;&#43;11 on Minseo Park Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jacob.park.9436@gmail.com (Minseo Park)</managingEditor>
+    <webMaster>jacob.park.9436@gmail.com (Minseo Park)</webMaster>
+    <copyright>© 2026 Minseo Park</copyright>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/c++11/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C&#43;&#43; Standard (1) (C&#43;&#43;11)</title>
+      <link>http://localhost:1313/blog/posts/cpp-standard-1-cpp11/</link>
+      <pubDate>Wed, 06 May 2026 21:10:00 +0900</pubDate>
+      <author>jacob.park.9436@gmail.com (Minseo Park)</author>
+      <guid>http://localhost:1313/blog/posts/cpp-standard-1-cpp11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/cpp-standard-1-cpp11/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

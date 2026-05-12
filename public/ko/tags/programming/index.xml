@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on 박민서 블로그</title>
+    <link>http://localhost:1313/blog/ko/tags/programming/</link>
+    <description>Recent content in Programming on 박민서 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <managingEditor>jacob.park.9436@gmail.com (박민서)</managingEditor>
+    <webMaster>jacob.park.9436@gmail.com (박민서)</webMaster>
+    <copyright>© 2026 박민서</copyright>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/blog/ko/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>C&#43;&#43; 표준 (1) (C&#43;&#43;11)</title>
+      <link>http://localhost:1313/blog/ko/posts/cpp-standard-1-cpp11/</link>
+      <pubDate>Wed, 06 May 2026 21:10:00 +0900</pubDate>
+      <author>jacob.park.9436@gmail.com (박민서)</author>
+      <guid>http://localhost:1313/blog/ko/posts/cpp-standard-1-cpp11/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
